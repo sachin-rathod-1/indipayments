@@ -1023,6 +1023,42 @@ section,
   transform: scale(1);
 }
 
+/* -------------------------card 2 custom */
+.values .card2 {
+  background-color: var(--surface-color);
+  color: var(--default-color);
+  padding: 10px;
+  box-shadow: 0px 0 10px rgba(106, 158, 247, 0.1);
+  /* text-align: center; */
+  transition: 0.3s;
+  height: 100%;
+  border: 0;
+}
+
+.values .card2 img {
+  padding: 30px 50px;
+  transition: 0.5s;
+  transform: scale(1.1);
+}
+
+.values .card2 h3 {
+  font-size: 24px;
+  font-weight: 700;
+  margin-bottom: 18px;
+}
+
+.values .card2:hover {
+  box-shadow: 0px 0 30px rgba(0, 0, 0, 0.1);
+}
+
+.values .card2:hover img {
+  transform: scale(1);
+}
+
+
+
+
+
 /*--------------------------------------------------------------
 # Stats Section
 --------------------------------------------------------------*/
